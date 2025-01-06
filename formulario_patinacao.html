@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Patinação Curitiba 2025 - Pesquisa Comunitária</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="checkbox"], input[type="radio"] {
+            margin-right: 10px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1># Festival de Patinação Curitiba 2025 - Pesquisa Comunitária</h1>
+        <p>Olá, patinadores e amantes do esporte! 🛼</p>
+        <p>Estamos planejando um evento único que vai unir competição, diversão e produção audiovisual profissional em Curitiba. Queremos criar não só um campeonato, mas uma experiência incrível que será documentada com drones, câmeras 360° e muito mais!</p>
+        <p>Sua opinião é fundamental para tornarmos esse evento especial.</p>
+
+        <form action="SUA_URL_DE_ENVIO_AQUI" method="POST">
+            <!-- 📋 Perfil do Participante -->
+            <div class="question">
+                <label>1. Como você se identifica no mundo da patinação?</label>
+                <label><input type="radio" name="perfil" value="iniciante"> Iniciante - ainda aprendendo o básico</label>
+                <label><input type="radio" name="perfil" value="intermediario"> Intermediário - já faço algumas manobras</label>
+                <label><input type="radio" name="perfil" value="avancado"> Avançado - domino várias técnicas</label>
+                <label><input type="radio" name="perfil" value="profissional"> Profissional - dou aulas/compito</label>
+                <label><input type="radio" name="perfil" value="entusiasta"> Entusiasta - amo assistir/fotografar</label>
+            </div>
+
+            <div class="question">
+                <label>2. Quais modalidades você mais curte? (pode escolher várias)</label>
+                <label><input type="checkbox" name="modalidades" value="slalom"> Slalom Freestyle</label>
+                <label><input type="checkbox" name="modalidades" value="speed"> Speed Slalom</label>
+                <label><input type="checkbox" name="modalidades" value="slides"> Slides e Derrapagens</label>
+                <label><input type="checkbox" name="modalidades" value="saltos"> Saltos (Jump)</label>
+                <label><input type="checkbox" name="modalidades" value="urbana"> Patinação Urbana</label>
+                <label><input type="checkbox" name="modalidades" value="artistica"> Patinação Artística</label>
+                <label><input type="checkbox" name="modalidades" value="outras"> Outras: <input type="text" name="outras_modalidades"></label>
+            </div>
+
+            <div class="question">
+                <label>3. Como você costuma participar de eventos?</label>
+                <label><input type="checkbox" name="participacao" value="competindo"> Competindo</label>
+                <label><input type="checkbox" name="participacao" value="assistindo"> Assistindo</label>
+                <label><input type="checkbox" name="participacao" value="fotografando"> Fotografando/Filmando</label>
+                <label><input type="checkbox" name="participacao" value="organizacao"> Ajudando na organização</label>
+                <label><input type="checkbox" name="participacao" value="primeira_vez"> Primeira vez que participaria</label>
+            </div>
+
+            <!-- 🎯 Formato do Evento -->
+            <div class="question">
+                <label>4. O que mais te atrai em um evento? (escolha até 3)</label>
+                <label><input type="checkbox" name="atracao" value="competicoes"> Competições organizadas</label>
+                <label><input type="checkbox" name="atracao" value="fotos"> Sessões de fotos/vídeos profissionais</label>
+                <label><input type="checkbox" name="atracao" value="pratica"> Área para prática livre</label>
+                <label><input type="checkbox" name="atracao" value="shows"> Shows e apresentações</label>
+                <label><input type="checkbox" name="atracao" value="workshops"> Workshops e aulas</label>
+                <label><input type="checkbox" name="atracao" value="conhecer"> Conhecer outros patinadores</label>
+                <label><input type="checkbox" name="atracao" value="outro"> Outro: <input type="text" name="outro_atracao"></label>
+            </div>
+
+            <div class="question">
+                <label>5. Que tipo de competição você prefere?</label>
+                <label><input type="radio" name="competicao" value="individual"> Individual com foco em técnica</label>
+                <label><input type="radio" name="competicao" value="batalhas"> Batalhas 1x1</label>
+                <label><input type="radio" name="competicao" value="grupo"> Apresentações em grupo</label>
+                <label><input type="radio" name="competicao" value="desafios"> Desafios recreativos</label>
+                <label><input type="radio" name="competicao" value="nao_interessa"> Não tenho interesse em competir</label>
+            </div>
+
+            <div class="question">
+                <label>6. Horários: quando você participaria? (múltipla escolha)</label>
+                <label><input type="checkbox" name="horarios" value="sabado_manha"> Sábado manhã (8h-12h)</label>
+                <label><input type="checkbox" name="horarios" value="sabado_tarde"> Sábado tarde (13h-17h)</label>
+                <label><input type="checkbox" name="horarios" value="domingo_manha"> Domingo manhã (8h-12h)</label>
+                <label><input type="checkbox" name="horarios" value="domingo_tarde"> Domingo tarde (13h-17h)</label>
+            </div>
+
+            <!-- 💡 Sugestões e Parcerias -->
+            <div class="question">
+                <label>7. Conhece alguma marca ou empresa que poderia apoiar o evento?</label>
+                <label><input type="checkbox" name="parcerias" value="lojas"> Lojas de patins</label>
+                <label><input type="checkbox" name="parcerias" value="marcas"> Marcas de equipamentos</label>
+                <label><input type="checkbox" name="parcerias" value="academias"> Academias/Escolas</label>
+                <label><input type="checkbox" name="parcerias" value="foodtrucks"> Food Trucks</label>
+                <label><input type="checkbox" name="parcerias" value="fotografos"> Fotógrafos/Videomakers</label>
+                <label><input type="checkbox" name="parcerias" value="outro"> Nome/Contato (opcional): <input type="text" name="outro_parcerias"></label>
+            </div>
+
+            <div class="question">
+                <label>8. O que você acha justo como valor de inscrição?</label>
+                <label><input type="radio" name="inscricao" value="gratuito"> Gratuito (com venda de fotos/vídeos)</label>
+                <label><input type="radio" name="inscricao" value="ate_50"> Até R$ 50</label>
+                <label><input type="radio" name="inscricao" value="51_80"> R$ 51-80</label>
+                <label><input type="radio" name="inscricao" value="81_100"> R$ 81-100</label>
+                <label><input type="radio" name="inscricao" value="outro"> Outro valor: <input type="text" name="outro_inscricao"></label>
+            </div>
+
+            <div class="question">
+                <label>9. Que tipo de registro você gostaria de ter do evento?</label>
+                <label><input type="checkbox" name="registro" value="fotos"> Fotos profissionais</label>
+                <label><input type="checkbox" name="registro" value="drone"> Vídeos com drone</label>
+                <label><input type="checkbox" name="registro" value="360"> Tour virtual 360°</label>
+                <label><input type="checkbox" name="registro" value="documentario"> Vídeo-documentário</label>
+                <label><input type="checkbox" name="registro" value="nao_interessa"> Não tenho interesse</label>
+            </div>
+
+            <!-- 🏆 Premiação e Incentivos -->
+            <div class="question">
+                <label>10. Qual premiação você considera mais atraente?</label>
+                <label><input type="radio" name="premiacao" value="medalhas"> Medalhas personalizadas</label>
+                <label><input type="radio" name="premiacao" value="produtos"> Produtos de patinação</label>
+                <label><input type="radio" name="premiacao" value="fotos"> Sessão de fotos profissional</label>
+                <label><input type="radio" name="premiacao" value="vale"> Vale-presente de patrocinadores</label>
+                <label><input type="radio" name="premiacao" value="outro"> Outro: <input type="text" name="outro_premiacao"></label>
+            </div>
+
+            <div class="question">
+                <label>11. O que não pode faltar no kit do participante?</label>
+                <label><input type="checkbox" name="kit" value="camiseta"> Camiseta do evento</label>
+                <label><input type="checkbox" name="kit" value="adesivos"> Adesivos</label>
+                <label><input type="checkbox" name="kit" value="brindes"> Brindes dos patrocinadores</label>
+                <label><input type="checkbox" name="kit" value="vouchers"> Vouchers de desconto</label>
+                <label><input type="checkbox" name="kit" value="outro"> Outro: <input type="text" name="outro_kit"></label>
+            </div>
+
+            <!-- 📍 Local e Estrutura -->
+            <div class="question">
+                <label>12. Entre estas opções, qual local você prefere?</label>
+                <label><input type="radio" name="local" value="barigui"> Parque Barigui</label>
+                <label><input type="radio" name="local" value="afonso"> Praça Afonso Botelho</label>
+                <label><input type="radio" name="local" value="boa_vista"> Rua da Cidadania Boa Vista</label>
+                <label><input type="radio" name="local" value="outro"> Outro: <input type="text" name="outro_local"></label>
+            </div>
+
+            <div class="question">
+                <label>Por quê? <textarea name="porque_local" rows="3"></textarea></label>
+            </div>
+
+            <div class="question">
+                <label>13. O que é essencial ter no local? (múltipla escolha)</label>
+                <label><input type="checkbox" name="essencial" value="coberta"> Área coberta</label>
+                <label><input type="checkbox" name="essencial" value="banheiros"> Banheiros próximos</label>
+                <label><input type="checkbox" name="essencial" value="alimentacao"> Área para alimentação</label>
+                <label><input type="checkbox" name="essencial" value="aquecimento"> Espaço para aquecimento</label>
+                <label><input type="checkbox" name="essencial" value="arquibancada"> Arquibancada/área para público</label>
+                <label><input type="checkbox" name="essencial" value="socorros"> Ponto de primeiros socorros</label>
+                <label><input type="checkbox" name="essencial" value="outro"> Outro: <input type="text" name="outro_essencial"></label>
+            </div>
+
+            <!-- 📱 Comunicação -->
+            <div class="question">
+                <label>14. Como você prefere receber informações?</label>
+                <label><input type="checkbox" name="comunicacao" value="instagram"> Instagram</label>
+                <label><input type="checkbox" name="comunicacao" value="whatsapp"> WhatsApp</label>
+                <label><input type="checkbox" name="comunicacao" value="email"> E-mail</label>
+                <label><input type="checkbox" name="comunicacao" value="telegram"> Telegram</label>
+                <label><input type="checkbox" name="comunicacao" value="outro"> Outro: <input type="text" name="outro_comunicacao"></label>
+            </div>
+
+            <div class="question">
+                <label>15. Você gostaria de participar da organização ou ajudar de alguma forma?</label>
+                <label><input type="radio" name="organizacao" value="voluntario"> Sim, como voluntário</label>
+                <label><input type="radio" name="organizacao" value="staff"> Sim, como staff técnico</label>
+                <label><input type="radio" name="organizacao" value="expositor"> Sim, como expositor</label>
+                <label><input type="radio" name="organizacao" value="talvez"> Talvez, me conte mais</label>
+                <label><input type="radio" name="organizacao" value="nao"> Não no momento</label>
+            </div>
+
+            <!-- ✨ Sugestões Abertas -->
+            <div class="question">
+                <label>16. Que dica você daria para tornar o evento mais especial?</label>
+                <textarea name="dica_especial" rows="4"></textarea>
+            </div>
+
+            <div class="question">
+                <label>17. Como podemos reduzir custos sem perder qualidade?</label>
+                <textarea name="reducao_custos" rows="4"></textarea>
+            </div>
+
+            <!-- 📝 Contato (opcional) -->
+            <div class="question">
+                <label>Nome: <input type="text" name="nome"></label>
+            </div>
+
+            <div class="question">
+                <label>Instagram: @<input type="text" name="instagram"></label>
+            </div>
+
+            <div class="question">
+                <label>WhatsApp: <input type="text" name="whatsapp"></label>
+            </div>
+
+            <div class="question">
+                <label>E-mail: <input type="email" name="email"></label>
+            </div>
+
+            <button type="submit">Enviar Respostas</button>
+        </form>
+    </div>
+</body>
+</html>
